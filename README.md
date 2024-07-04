@@ -1,13 +1,100 @@
 # Documenting Your Applications: Strategies and Examples
 ## 1. Self-Describing Code
 
-- **Definition:** Use clear and descriptive names for methods, functions, variables, and classes.
-- **Example:** Name a function that validates an email address as `validateEmailAddress`.
-- **Purpose:** This helps other developers understand the purpose of the code by simply reading it.
+## Definition
+Self-describing code is a practice in programming where the names of methods, functions, variables, and classes are chosen to be clear and descriptive. This means that the names themselves provide an understanding of what the code does without requiring additional comments or documentation.
+
+#### Example
+Consider the task of writing a function to validate email addresses. A self-describing name for this function would be `validateEmailAddress`. This name immediately informs the reader of its purpose.
+
+```python
+def validateEmailAddress(email):
+    # Check if the email contains an '@' symbol
+    if '@' in email:
+        return True
+    return False
+```
+
+## Purpose
+The primary purpose of self-describing code is to enhance code readability and maintainability. Here are several specific benefits:
+
+1. **Improved Readability**: When code is easy to read, it is easier to understand. Descriptive names act as documentation that explains what the code does.
+2. **Easier Maintenance**: When other developers (or even your future self) need to work on the code, they can quickly grasp the functionality without needing to decipher cryptic names or search for additional documentation.
+3. **Reduced Need for Comments**: While comments are useful, they can become outdated if not maintained properly. Self-describing names remain accurate as long as the code structure remains consistent with the names.
+4. **Enhanced Collaboration**: Clear code fosters better collaboration among team members, as everyone can understand and contribute to the codebase more effectively.
+
+#### Detailed Explanation with Examples
+
+##### Variables
+Use meaningful variable names that convey the purpose of the variable.
+
+**Poor Example:**
+```python
+x = 10
+y = 20
+z = x + y
+```
+
+**Good Example:**
+```python
+numberOfApples = 10
+numberOfOranges = 20
+totalFruits = numberOfApples + numberOfOranges
+```
+
+In the good example, the variable names clearly indicate what each value represents, making the code easier to understand.
+
+##### Functions/Methods
+Name functions and methods based on the action they perform.
+
+**Poor Example:**
+```python
+def proc(data):
+    # process data
+    pass
+```
+
+**Good Example:**
+```python
+def processData(data):
+    # process data
+    pass
+```
+
+The good example tells us that the function processes data, making the code more intuitive.
+
+##### Classes
+Class names should represent the objects or concepts they model.
+
+**Poor Example:**
+```python
+class D:
+    pass
+```
+
+**Good Example:**
+```python
+class Document:
+    pass
+```
+
+The good example clearly indicates that the class represents a document.
+
+##### Constants
+Constants should be named to indicate their purpose and should be written in uppercase with words separated by underscores.
+
+**Poor Example:**
+```python
+pi = 3.14159
+```
+
+**Good Example:**
+```python
+PI = 3.14159
+```
 
 
 
-Self-describing code uses clear and descriptive names for methods, functions, variables, and classes. This makes the code readable and understandable at a glance.
 
 ### Next.js (JavaScript/TypeScript)
 ```javascript
