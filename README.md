@@ -1,4 +1,5 @@
 # Documenting Your Applications: Strategies and Examples  In English 
+
 ## 1. Self-Describing Code
 
 ## Definition
