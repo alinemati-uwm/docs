@@ -206,4 +206,4 @@ Design Decisions
 
 ```
 
-https://docs.google.com/document/d/1VSYOIBKA_9jR1sDVQPjxYS7cSEdNGsrPtCj-nxrBBsg/edit?usp=sharing
+**Example:** For a sample of such documentation, see this [Google Docs Example](https://docs.google.com/document/d/1VSYOIBKA_9jR1sDVQPjxYS7cSEdNGsrPtCj-nxrBBsg/edit?usp=sharing) and this [YouTube Video](https://youtu.be/ce4ZbsAovl4?si=vbK3jqW_z1cBnNzF).
